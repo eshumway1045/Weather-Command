@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Command</title>
+</head>
+
+<body>
+    <header class="top-banner">
+        <h1>Weather Command</h1>
+    </header>
+    <main>
+        <div class="search-box">
+            <form class="search-form">
+                <label for="city-search" class="cs-label">Search for a City:</label>
+                <input type="text" placeholder="City Name" name="city-search" class="cs-input" id="city-search">
+                <button class="cs-btn" id="cs-btn">Search</button>
+            </form>
+            <div class="previous-cs-box" id="previous-cs-box">
+                <!-- buttons for previous-->
+            </div>
+        </div>
+        <div class="weather-box" id="weather-box">
+            <div class="wb-top" id="wb-top">
+                <!-- Current weather-->
+            </div>
+            <div class="wb-forcast" id="wb-forcast">
+                <h3 class="five-day-label">5-day Forcast</h3>
+                <div class="forcast-boxes" id="forcast-boxes">
+                    <!--Forecast-->
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

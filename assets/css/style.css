@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    width: 100%;
+    height: 222px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(35deg, rgba(130, 223, 130, 0.925) 0%, green 50%, rgb(0, 48, 0) 90% );
+    color: white;
+}
+
+.wb-top h2 {
+    display: flex;
+    align-items: center;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 5px black solid;
+    width: 100%;
+}
+
+.cs-label {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.cs-input {
+    margin: 10px 10px;
+    font-size: larger;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.cs-btn {
+    color: white;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0px 10px 10px 10px;
+    
+}
+
+.cs-btn:hover {
+    background-color: blue;
+}
+
+.p-search-btn {
+    color: black;
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    width: 95%;
+    line-height: 1.5;
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: auto;
+}
+
+.p-search-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.weather-box {
+    margin-left: 15px;
+    width: 75%;
+}
+
+.wb-top {
+    border: 2px black solid;
+    padding: 5px;
+    line-height: 2.0;
+    background-color: skyblue;
+    color: white;
+}
+
+.weather-icon {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.five-day-label {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.forcast-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.f-box {
+    background-color: skyblue;
+    color: white;
+    line-height: 1.5;
+    padding: 5px;
+    width: 16%;
+    border-radius: 10px;
+}
+
+
+
+.uv-danger {
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+.uv-noneFound {
+    background-color: white;
+    color: black;
+}
+
+.uv-low {
+    background-color: green;
+    color: white;
+}
+
+.uv-moderate {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.uv-high {
+    background-color: yellow;
+    color: black;
+}
+
+.uv-very-high {
+    background-color: orange;
+    color: white;
+}
+
+.uv-severe {
+    background-color: red;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+
+    .weather-box {
+        width: 90%;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .forcast-boxes {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .f-box {
+        width: 90%;
+        margin-top: 10px;
+    }
+}
