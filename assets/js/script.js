@@ -1,7 +1,7 @@
 let citySearchEl = document.querySelector("#city-search");
 let citySearchBtnEl = document.querySelector("#cs-btn");
 let cityPrevSearchEl = document.querySelector("#previous-cs-box");
-let cityCurrWeatherEl = document.querySelector("#wb-top");
+let cityCurrWeatherEl = document.querySelector("#weather-box-top");
 let cityFutWeatherEl = document.querySelector("#forcast-boxes");
 let currDate = new Date();
 const prevSearches = [];
